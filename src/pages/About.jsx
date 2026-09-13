@@ -15,7 +15,7 @@ import Header from '../components/Header.jsx'
 const About = () => {
   //for seo
   useEffect(() => {
-  document.title = "About NermexSoft | Developing The Future Of Digital Infrastructure";
+  document.title = "About NermexSoft | Turning Ideas Into Digital Reality";
 
   const description =
     "Learn about NermexSoft, a software and digital solutions agency helping businesses build modern websites and software solutions.";
