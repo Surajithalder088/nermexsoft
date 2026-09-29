@@ -15,10 +15,10 @@ import Header from '../components/Header.jsx'
 const About = () => {
   //for seo
   useEffect(() => {
-  document.title = "About NermexSoft | Turning Ideas Into Digital Reality";
+  document.title = "About NernexSoft | Turning Ideas Into Digital Reality";
 
   const description =
-    "Learn about NermexSoft, a software and digital solutions agency helping businesses build modern websites and software solutions.";
+    "Learn about NernexSoft, a software and digital solutions agency helping businesses build modern websites and software solutions.";
 
   let meta = document.querySelector('meta[name="description"]');
 
@@ -38,7 +38,7 @@ const About = () => {
     document.head.appendChild(canonical);
   }
 
-  canonical.setAttribute("href", "https://NermexSoft.in/about");
+  canonical.setAttribute("href", "https://nernexsoft.in/about");
 }, []);
    const isMobile= useMediaQuery({query:'(max-width:768px)'})
     const[headerMenuOpen,setHeaderMenuOpen]=useState(false)
@@ -53,7 +53,7 @@ const About = () => {
   {/* Background Image */}
   <img
     src="/images/about-hero.jpeg"
-    alt="About NermexSoft"
+    alt="About NernexSoft"
     className="absolute inset-0 w-full h-full object-cover z-0"
   />
 
@@ -75,7 +75,7 @@ const About = () => {
     </h1>
 
     <p className="max-w-4xl text-center text-base md:text-lg leading-relaxed text-white">
-      At NermexSoft, we help businesses turn their ideas and challenges
+      At NernexSoft, we help businesses turn their ideas and challenges
       into practical digital solutions. From professional websites and
       custom software to modern applications and business automation,
       we create technology designed around real business needs. Our goal

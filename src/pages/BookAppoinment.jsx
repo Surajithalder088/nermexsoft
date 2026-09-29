@@ -16,10 +16,10 @@ const BookAppoinment = () => {
 
   //for seo
   useEffect(() => {
-  document.title = "Start a Project | NermexSoft";
+  document.title = "Start a Project | NernexSoft";
 
   const description =
-    "Start your website or software project with NermexSoft. Discuss your requirements and get a project consultation.";
+    "Start your website or software project with NernexSoft. Discuss your requirements and get a project consultation.";
 
   let meta = document.querySelector('meta[name="description"]');
 
@@ -39,7 +39,7 @@ const BookAppoinment = () => {
     document.head.appendChild(canonical);
   }
 
-  canonical.setAttribute("href", "https://NermexSoft.in/start-project");
+  canonical.setAttribute("href", "https://nernexsoft.in/start-project");
 }, []);
      const isMobile= useMediaQuery({query:'(max-width:768px)'})
     const navigate = useNavigate();

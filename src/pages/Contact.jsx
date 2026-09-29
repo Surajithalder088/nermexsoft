@@ -12,10 +12,10 @@ import Header from '../components/Header'
 
 const Contact = () => {
   useEffect(() => {
-  document.title = "Contact NermexSoft | Get in Touch";
+  document.title = "Contact NernexSoft | Get in Touch";
 
   const description =
-    "Contact NermexSoft for Business website development, Custom applications , software solutions, redesign, maintenance and digital projects.";
+    "Contact NernexSoft for Business website development, Custom applications , software solutions, redesign, maintenance and digital projects.";
 
   let meta = document.querySelector('meta[name="description"]');
 
@@ -35,7 +35,7 @@ const Contact = () => {
     document.head.appendChild(canonical);
   }
 
-  canonical.setAttribute("href", "https://NermexSoft.in/contact");
+  canonical.setAttribute("href", "https://nernexsoft.in/contact");
 }, []);
    const isMobile= useMediaQuery({query:'(max-width:768px)'})
    const location = useLocation();
@@ -73,7 +73,7 @@ const Contact = () => {
       <p className="text-gray-400 text-lg md:text-xl leading-relaxed mt-8 max-w-2xl">
         Have an idea, a project, or a business challenge?
         We're here to turn it into a digital solution that works.
-        Reach out to NermexSoft and let's start a conversation.
+        Reach out to NernexSoft and let's start a conversation.
       </p>
     </motion.div>
 
@@ -97,11 +97,11 @@ const Contact = () => {
           </p>
 
           <h3 className="text-white text-2xl md:text-3xl font-semibold mb-5">
-            Visit NermexSoft
+            Visit NernexSoft
           </h3>
 
           <p className="text-gray-400 text-lg leading-relaxed max-w-md">
-            NermexSoft
+            NernexSoft
             <br />
             Kolkata, West Bengal
             <br />
@@ -122,7 +122,7 @@ const Contact = () => {
 
             {/* Email */}
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=NermexSoft@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=NernexSoft@gmail.com"
   target="_blank"
   rel="noopener noreferrer"
               className="group flex items-center justify-between border-b border-white/10 py-4 max-w-lg"
@@ -132,14 +132,14 @@ const Contact = () => {
               </span>
 
               <span className="text-gray-500 group-hover:text-blue-400 transition-colors">
-                NermexSoft@gmail.com
+                NernexSoft@gmail.com
               </span>
             </a>
 
 
             {/* LinkedIn */}
             <a
-              href="https://www.linkedin.com/company/NermexSoft/"
+              href="https://www.linkedin.com/company/NernexSoft/"
               className="group flex items-center justify-between border-b border-white/10 py-4 max-w-lg"
             >
               <span className="text-gray-300 group-hover:text-white transition-colors">
@@ -147,14 +147,14 @@ const Contact = () => {
               </span>
 
               <span className="text-gray-500 group-hover:text-blue-400 transition-colors">
-                @NermexSoft
+                @NernexSoft
               </span>
             </a>
 
 
             {/* Instagram */}
             <a
-              href="https://www.instagram.com/NermexSoft/"
+              href="https://www.instagram.com/NernexSoft/"
               className="group flex items-center justify-between border-b border-white/10 py-4 max-w-lg"
             >
               <span className="text-gray-300 group-hover:text-white transition-colors">
@@ -162,7 +162,7 @@ const Contact = () => {
               </span>
 
               <span className="text-gray-500 group-hover:text-blue-400 transition-colors">
-                @NermexSoft
+                @NernexSoft
               </span>
             </a>
 
@@ -177,12 +177,12 @@ const Contact = () => {
               </span>
 
               <span className="text-gray-500 group-hover:text-blue-400 transition-colors">
-                @NermexSoft
+                @NernexSoft
               </span>
             </a>
              {/* X */}
             <a
-              href="https://www.youtube.com/@NermexSoft"
+              href="https://www.youtube.com/@NernexSoft"
               className="group flex items-center justify-between border-b border-white/10 py-4 max-w-lg"
             >
               <span className="text-gray-300 group-hover:text-white transition-colors">
@@ -190,14 +190,14 @@ const Contact = () => {
               </span>
 
               <span className="text-gray-500 group-hover:text-blue-400 transition-colors">
-               @NermexSoft
+               @NernexSoft
               </span>
             </a>
 
 
             {/* X */}
             <a
-              href="https://x.com/NermexSoft"
+              href="https://x.com/NernexSoft"
               className="group flex items-center justify-between border-b border-white/10 py-4 max-w-lg"
             >
               <span className="text-gray-300 group-hover:text-white transition-colors">
@@ -205,7 +205,7 @@ const Contact = () => {
               </span>
 
               <span className="text-gray-500 group-hover:text-blue-400 transition-colors">
-               @NermexSoft
+               @NernexSoft
               </span>
             </a>
 
@@ -227,7 +227,7 @@ const Contact = () => {
         {/* Map Image */}
         <img
           src="https://newsmeter.in/h-upload/2022/11/27/500x300_333804-whatsapp-image-2022-11-27-at-35153-pm.webp"
-          alt="NermexSoft location"
+          alt="NernexSoft location"
           className="absolute inset-0 w-full h-full object-cover opacity-70"
         />
 

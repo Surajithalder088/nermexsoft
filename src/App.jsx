@@ -121,7 +121,7 @@ const App = () => {
 
           <div className={`flex flex-col items-center justify-between p-2 ${isMobile?"w-full":"w-[50%]"} `}>
             <p className='text-3xl font-serif p-2'>Ready to Build Your Website?</p>
-            <p className='text-xl font-mono p-2'>Get a free consultation and project estimate from NermexSoft.
+            <p className='text-xl font-mono p-2'>Get a free consultation and project estimate from NernexSoft.
 
             </p>
             <p className='p-2  text-gray-500'>Whether you need a business website, website redesign, maintenance, SEO optimization, or a custom web application, our team is here to help your business grow online.</p>

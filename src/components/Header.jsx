@@ -19,9 +19,9 @@ const Header = () => {
   
 `}>
       <div className='flex items-center justify-between w-full '> 
-         <a className={`flex-1 text-white flex items-center justify-start cursor-pointer ${isMobile ? 'pl-6' : 'pl-15 '}`}
+         <a className={`flex-1 text-white flex items-center justify-start cursor-pointer ${isMobile ? 'pl-6' : 'pl-15 py-2 '}`}
          href='/'>
-          <img src='/images/nermexlogo-1-trans.png' className={`${isMobile ? 'size-12 w-34' : 'size-16 w-50 '} `} />
+          <img src='/images/nermexlogo-1-trans.png' className={`${isMobile ? 'size-12 w-34' : 'size-14 w-50 '} `} />
           {/* <span className={`${isMobile ? 'text-md' : 'text-2xl'} font-serif italic`}>
             <img src='/images/nermexlogo-2-trans.png' className={`${isMobile ? 'size-12 w-22' : 'size-16 w-38'}`}
                   alt="heading-logo2"/></span> */}

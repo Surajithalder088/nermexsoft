@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sijansoft.in/sitemap.xml
+Sitemap: https://nernexsoft.in/sitemap.xml

@@ -290,7 +290,7 @@ const Hero = () => {
               style={{ fontSize: isMobile ? "1.5rem" : "3rem" }}
               className="hero-header"
             >
-              NermexSoft
+              NernexSoft
             </h1>
             <h1
               style={{ fontSize: isMobile ? "1rem" : "2rem" }}

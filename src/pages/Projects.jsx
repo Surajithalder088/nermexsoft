@@ -11,10 +11,10 @@ import ProjectList from '../sections/ProjectList'
 
 const Projects = () => {
   useEffect(() => {
-  document.title = "Projects | NermexSoft";
+  document.title = "Projects | NernexSoft";
 
   const description =
-    "Explore projects and digital solutions developed by NermexSoft for businesses across different industries.";
+    "Explore projects and digital solutions developed by NernexSoft for businesses across different industries.";
 
   let meta = document.querySelector('meta[name="description"]');
 
@@ -34,7 +34,7 @@ const Projects = () => {
     document.head.appendChild(canonical);
   }
 
-  canonical.setAttribute("href", "https://NermexSoft.in/projects");
+  canonical.setAttribute("href", "https://nernexsoft.in/projects");
 }, []);
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
 
@@ -57,11 +57,11 @@ const Projects = () => {
 
         {/* 🔥 FULL BACKGROUND VIDEO */}
         
-        <div    className={`absolute flex justify-center items-start inset-0 w-full   ${isMobile?'object-contain h-[70%]':'object-cover h-[60vh]'} `}>
+        <div    className={`absolute flex justify-center items-center inset-0 w-full   ${isMobile?'object-contain h-[100%]':'object-contain h-[80%] p-20'} `}>
             <img
             alt='logo-default'
-            src='/images/NermexSoft-logo-2.jpeg'
-            className={`w-[70%]  h-full ${isMobile?'object-cover ':'object-cover '}`}/>
+            src='/images/sijansoft-logo-2.jpeg'
+            className={`w-[130%]  h-full ${isMobile?'object-contain p-3 ':'object-contain '}`}/>
 
         </div>
 

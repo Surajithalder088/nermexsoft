@@ -72,10 +72,10 @@ gsap.registerPlugin(ScrollTrigger)
 const Services = () => {
 // for seo
   useEffect(() => {
-  document.title = "Services | NermexSoft";
+  document.title = "Services | NernexSoft";
 
   const description =
-    "Explore NermexSoft services including business website development, web applications,AI powered applications,Custom Mobile & Web Software, website redesign, maintenance and digital solutions.";
+    "Explore NernexSoft services including business website development, web applications,AI powered applications,Custom Mobile & Web Software, website redesign, maintenance and digital solutions.";
 
   let meta = document.querySelector('meta[name="description"]');
 
@@ -95,7 +95,7 @@ const Services = () => {
     document.head.appendChild(canonical);
   }
 
-  canonical.setAttribute("href", "https://NermexSoft.in/services");
+  canonical.setAttribute("href", "https://nernexsoft.in/services");
 }, []);
     const [isFixed, setIsFixed] = useState(false)
     const ref1 = useRef(null)

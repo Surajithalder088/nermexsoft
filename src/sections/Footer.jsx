@@ -74,9 +74,9 @@ const Footer = () => {
             <div className="flex items-center space-x-3">
               <p className={`flex-1 text-white flex items-center justify-start cursor-pointer ${isMobile ? 'pl-1' : 'pl-0 '}`}
          onClick={() => smoothScrollTo(window.innerHeight * 0)}>
-          <img src='/images/nermexlogo-3-trans.png'    className={`${isMobile ? 'size-14' : 'size-14'}`}/>
+          <img src='/images/nermexlogo-3-trans.png'    className={`${isMobile ? 'size-14' : 'size-16'}`}/>
           <span className={`${isMobile ? 'text-md' : 'text-2xl'} font-serif italic`}>
-            <img src='/images/nermexlogo-2-trans.png' className={`${isMobile ? 'size-14 w-26' : 'size-18 w-36'}`}
+            <img src='/images/nermexlogo-2-trans.png' className={`${isMobile ? 'size-14 w-26' : 'size-18 w-40'}`}
                   alt="heading-logo3"/></span></p>
              
             </div>
@@ -85,7 +85,7 @@ const Footer = () => {
               Premium software engineering consultancy. We build scalable digital products, SaaS platforms, and AI-powered systems for ambitious teams.
             </p>
                <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=NermexSoft@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=NernexSoft@gmail.com"
   target="_blank"
   rel="noopener noreferrer"
               className="group flex items-center justify-start gap-4 border-b border-white/10 py-4 max-w-lg"
@@ -97,7 +97,7 @@ const Footer = () => {
               </span>
 
               <span className="text-gray-500 group-hover:text-blue-400 transition-colors">
-                NermexSoft@gmail.com
+                NernexSoft@gmail.com
               </span>
             </a>
               <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
@@ -110,15 +110,15 @@ const Footer = () => {
                 { label: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTScHUJCj48phEtgQsaRx0v8hFaikJYqR35nb9Ru0l5xQ&s=10',
                    href: 'https://www.facebook.com/share/1JEtBQG7DZ/' },
                 { label: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc4y5QSmDn7y5QDkxihPJyy6nsygzWdbpwQ8qGlGSKCA&s=10',
-                   href: 'https://www.instagram.com/NermexSoft/' },
+                   href: 'https://www.instagram.com/NernexSoft/' },
                 { label: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRS6uHWtrq76P_huoHbVy-3Twk3K5uwKFAQke5Tks4XQ&s=10',
-                   href: 'https://www.linkedin.com/company/NermexSoft/' },
+                   href: 'https://www.linkedin.com/company/NernexSoft/' },
                 { label: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmAwNFAgGOaGoe0aU5R0CjTNaCaSd2qmEgx4NQaY3cgQ&s=10',
-                   href: 'https://www.youtube.com/@NermexSoft' },
+                   href: 'https://www.youtube.com/@NernexSoft' },
                 { label: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-KQUtAHY0_kl_WL-ZIzsy4jMvBX8SwWlSPhm0p6m1KA&s=10',
-                   href: 'https://x.com/NermexSoft' },
+                   href: 'https://x.com/NernexSoft' },
                 { label: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd43NPXZcOp-N1vst9Acu-2IV7ZqJ3zQiOJpoW5YOOyg&s=10', 
-                  href: 'https://github.com/NermexSoft' },
+                  href: 'https://github.com/NernexSoft' },
                 { label: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnAcE2jn33Lqf2fteJ00cS_p19c8dv-nGRQzJWwn7YBg&s=10', 
                   href: 'https://wa.me/7477685132' }
                 
@@ -172,7 +172,7 @@ const Footer = () => {
         {/* BOTTOM ROW: Copyright & Legal Policies */}
         <div className="pt-8 border-t border-gray-900 flex flex-col sm:flex-row justify-between items-center text-xs text-gray-500 gap-4">
           <div>
-            © 2026 NermexSoft. All rights reserved.
+            © 2026 NernexSoft. All rights reserved.
           </div>
           <div className="flex items-center space-x-6">
             <a href="#" className="hover:text-gray-300 transition-colors">Privacy Policy</a>
