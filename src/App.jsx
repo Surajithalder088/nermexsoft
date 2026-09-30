@@ -129,9 +129,9 @@ const App = () => {
             <a href='/start-project'
             className='bg-white hover:bg-gray-400 w-full flex justify-center transition text-black font-semibold px-6 py-3 rounded-lg my-4'
             >Book Free Consultation</a>
-            <a href='/contact'
+            <a href="tel:+918100849695"
              className='  transition font-semibold  w-full flex justify-center px-6 py-3 rounded-lg my-4  border-2 border-white'
-            >Contact Us</a>
+            >Call Us</a>
 
           </div>
 
@@ -323,7 +323,7 @@ const App = () => {
 
            <div 
          style={{position:"fixed",bottom:"60px",right:"20px",zIndex:99999,display:heroModal?"none":"flex",alignItems:"center",justifyContent:"center",gap:"10px",cursor:"pointer"}}>
-        <a href='https://wa.me/7477685132'><img alt="calling"
+        <a href='https://wa.me/8100849695'><img alt="calling"
           src='/images/whatsapp.png'
           className='size-10 relative'
           /></a> 

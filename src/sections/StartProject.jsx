@@ -138,13 +138,13 @@ const StartProject = () => {
 
           {/* Contact Details Footnote */}
           <div className="animate-left-item space-y-3 pt-4 border-t border-gray-900 text-sm text-gray-400">
-            <a href="mailto:contact@shtechlabs.in" className="flex items-center space-x-3 hover:text-white transition-colors">
-              <span className="text-gray-500">✉</span> <span>contact@shtechlabs.in</span>
+            <a href="mailto:nernexsoft@gmail.com" className="flex items-center space-x-3 hover:text-white transition-colors">
+              <span className="text-gray-500">✉</span> <span>nernexsoft@gmail.com</span>
             </a>
-            <a href="tel:+917477685132" className="flex items-center space-x-3 hover:text-white transition-colors">
-              <span className="text-gray-500">📞</span> <span>+91 7477685132</span>
+            <a href="tel:+918100849695" className="flex items-center space-x-3 hover:text-white transition-colors">
+              <span className="text-gray-500">📞</span> <span>+91 8100849695</span>
             </a>
-            <a href= 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToKDAEZ2Ydvo9JpK8sABjeBARpbiEbwhy2An3cPaeStQ&s=10'
+            <a href= 'https://www.facebook.com/share/1KmD6RijMW/'
              className="flex items-center space-x-3">
               <span className="text-gray-500">🌐</span> <span>Facebook</span>
             </a>

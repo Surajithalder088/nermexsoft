@@ -122,7 +122,7 @@ const Contact = () => {
 
             {/* Email */}
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=NernexSoft@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=nernexsoft@gmail.com"
   target="_blank"
   rel="noopener noreferrer"
               className="group flex items-center justify-between border-b border-white/10 py-4 max-w-lg"
@@ -132,7 +132,7 @@ const Contact = () => {
               </span>
 
               <span className="text-gray-500 group-hover:text-blue-400 transition-colors">
-                NernexSoft@gmail.com
+                nernexsoft@gmail.com
               </span>
             </a>
 
@@ -154,7 +154,7 @@ const Contact = () => {
 
             {/* Instagram */}
             <a
-              href="https://www.instagram.com/NernexSoft/"
+              href="https://www.instagram.com/nernexsoft/"
               className="group flex items-center justify-between border-b border-white/10 py-4 max-w-lg"
             >
               <span className="text-gray-300 group-hover:text-white transition-colors">
@@ -169,7 +169,7 @@ const Contact = () => {
 
             {/* Facebook */}
             <a
-              href="https://www.facebook.com/share/1JEtBQG7DZ/"
+              href="https://www.facebook.com/share/1KmD6RijMW/"
               className="group flex items-center justify-between border-b border-white/10 py-4 max-w-lg"
             >
               <span className="text-gray-300 group-hover:text-white transition-colors">

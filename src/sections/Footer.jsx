@@ -97,7 +97,7 @@ const Footer = () => {
               </span>
 
               <span className="text-gray-500 group-hover:text-blue-400 transition-colors">
-                NernexSoft@gmail.com
+                nernexsoft@gmail.com
               </span>
             </a>
               <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
@@ -108,9 +108,9 @@ const Footer = () => {
             <div className="flex items-center space-x-3 pt-2">
               {[
                 { label: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTScHUJCj48phEtgQsaRx0v8hFaikJYqR35nb9Ru0l5xQ&s=10',
-                   href: 'https://www.facebook.com/share/1JEtBQG7DZ/' },
+                   href: 'https://www.facebook.com/share/1KmD6RijMW/' },
                 { label: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc4y5QSmDn7y5QDkxihPJyy6nsygzWdbpwQ8qGlGSKCA&s=10',
-                   href: 'https://www.instagram.com/NernexSoft/' },
+                   href: 'https://www.instagram.com/nernexsoft/' },
                 { label: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRS6uHWtrq76P_huoHbVy-3Twk3K5uwKFAQke5Tks4XQ&s=10',
                    href: 'https://www.linkedin.com/company/NernexSoft/' },
                 { label: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmAwNFAgGOaGoe0aU5R0CjTNaCaSd2qmEgx4NQaY3cgQ&s=10',
@@ -120,7 +120,7 @@ const Footer = () => {
                 { label: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd43NPXZcOp-N1vst9Acu-2IV7ZqJ3zQiOJpoW5YOOyg&s=10', 
                   href: 'https://github.com/NernexSoft' },
                 { label: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnAcE2jn33Lqf2fteJ00cS_p19c8dv-nGRQzJWwn7YBg&s=10', 
-                  href: 'https://wa.me/7477685132' }
+                  href: 'https://wa.me/8100849695' }
                 
               ].map((social, idx) => (
                 <a 
