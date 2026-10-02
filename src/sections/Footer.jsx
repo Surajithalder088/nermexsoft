@@ -46,7 +46,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         
         {/* TOP ROW: Pre-Footer CTA Banner */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center pb-10 border-b border-gray-900 gap-6">
+        {/* <div className="flex flex-col md:flex-row justify-between items-start md:items-center pb-10 border-b border-gray-900 gap-6">
           <div className="space-y-2">
             <h2 className="animate-footer-cta text-3xl md:text-4xl font-bold tracking-tight">
               Ready to build something great?
@@ -64,7 +64,7 @@ const Footer = () => {
             <p className="text-white font-semibold">Mr. Surajit Halder </p>
             <p className="text-gray-400 text-sm">Founder & CEO</p>
           </div>
-        </div>
+        </div> */}
 
         {/* MIDDLE ROW: Brand Info & Multi-Column Navigation */}
         <div className="animate-footer-cols grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 py-16">
