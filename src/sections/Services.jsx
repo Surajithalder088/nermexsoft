@@ -241,7 +241,14 @@ const Services = () => {
                 )}
                 </div>
 
+               
+
+               
+
                 <div className="h-fit py-14">
+                  <div className='font-semibold md:text-5xl text-3xl text-center'>
+         <p>and many more...</p>
+      </div>
                     <TechStack/>
                 </div>
         
